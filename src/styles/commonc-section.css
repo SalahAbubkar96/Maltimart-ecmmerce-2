@@ -1,0 +1,38 @@
+.common_section{
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url('../assets/images/commnec-back.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    padding: 100px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.common_section h1{
+    color: #fff;
+    font-weight: 600;
+}  
+
+
+.search_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:768px){
+    .common_section{
+        padding: 70px 0px;
+    }
+    .common_section h1{
+        font-size: 1.4rem;
+    }   
+    
+}
