@@ -10,7 +10,6 @@ const AddProducts = () => {
   const [enterPrice, setEnterPrice] = useState("");
   const [enterProductImg, setEnterProductImg] = useState(null);
 
-const [loding, setLoding] = useState(false);  
 
   const addProduct = async (e) => {
     e.preventDefault( );
